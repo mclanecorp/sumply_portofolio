@@ -132,8 +132,7 @@ header {
 .portfolio_tabs {
   width: 348px;
   padding: 23px 0;
-  background: linear-gradient(0deg, #0c151d, #0c151d),
-    linear-gradient(0deg, #3e64aa, #3e64aa);
+  background-color: #0c151d;
   border-radius: 10px;
   font-family: Poppins;
   font-size: 22px;
@@ -295,8 +294,7 @@ footer {
     width: 100%;
     padding: 14px 52px;
     margin: 6px;
-    background: linear-gradient(0deg, #0c151d, #0c151d),
-      linear-gradient(0deg, #3e64aa, #3e64aa);
+    background-color: #0c151d;
     border-radius: 10px;
     font-family: Poppins;
     font-size: 14px;
@@ -349,4 +347,7 @@ footer {
 /*-----------------------------------------------------------------*/
 .light {
   display: none;
+}
+.light.width {
+  width: 48px;
 }
